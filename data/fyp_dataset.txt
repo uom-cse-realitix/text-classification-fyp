@@ -1,0 +1,709 @@
+Find the laptop, 1
+Find the book, 1
+Find the cup, 1
+Find the mobile phone, 1
+Find the pen, 1
+Find the bottle, 1
+Find the hand, 1
+Find the chair, 1
+Find the mouse, 1
+Find the monitor, 1
+Find the keyboard, 1
+Show me the location of laptop, 1
+Show me the location of book, 1
+Show me the location of cup, 1
+Show me the location of mobile phone, 1
+Show me the location of pen, 1
+Show me the location of bottle, 1
+Show me the location of hand, 1
+Show me the location of chair, 1
+Show me the location of mouse, 1
+Show me the location of monitor, 1
+Show me the location of keyboard, 1
+Locate the laptop, 1
+Locate the book, 1
+Locate the cup, 1
+Locate the mobile phone, 1
+Locate the pen, 1
+Locate the bottle, 1
+Locate the hand, 1
+Locate the chair, 1
+Locate the mouse, 1
+Locate the monitor, 1
+Locate the keyboard, 1
+Please locate the laptop, 1
+Please locate the book, 1
+Please locate the cup, 1
+Please locate the mobile phone, 1
+Please locate the pen, 1
+Please locate the bottle, 1
+Please locate the hand, 1
+Please locate the chair, 1
+Please locate the mouse, 1
+Please locate the monitor, 1
+Please locate the keyboard, 1
+Where is the laptop, 1
+Where is the book, 1
+Where is the cup, 1
+Where is the mobile phone, 1
+Where is the pen, 1
+Where is the bottle, 1
+Where is the hand, 1
+Where is the chair, 1
+Where is the mouse, 1
+Where is the monitor, 1
+Where is the keyboard, 1
+Where are the laptops, 1
+Where are the books, 1
+Where are the cups, 1
+Where are the mobile phones, 1
+Where are the pens, 1
+Where are the bottles, 1
+Where are the hands, 1
+Where are the chairs, 1
+Where are the mouses, 1
+Where are the monitors, 1
+Where are the keyboards, 1
+What is the location of laptop, 1
+What is the location of book, 1
+What is the location of cup, 1
+What is the location of mobile phone, 1
+What is the location of pen, 1
+What is the location of bottle, 1
+What is the location of hand, 1
+What is the location of chair, 1
+What is the location of mouse, 1
+What is the location of monitor, 1
+What is the location of keyboard, 1
+What are the locations of laptops, 1
+What are the locations of books, 1
+What are the locations of cups, 1
+What are the locations of mobile phones, 1
+What are the locations of pens, 1
+What are the locations of bottles, 1
+What are the locations of hands, 1
+What are the locations of chairs, 1
+What are the locations of mouses, 1
+What are the locations of monitors, 1
+What are the locations of keyboards, 1
+Can you find the laptop for me?, 1
+Can you find the book for me?, 1
+Can you find the cup for me?, 1
+Can you find the mobile phone for me?, 1
+Can you find the pen for me?, 1
+Can you find the bottle for me?, 1
+Can you find the hand for me?, 1
+Can you find the chair for me?, 1
+Can you find the mouse for me?, 1
+Can you find the monitor for me?, 1
+Can you find the keyboard for me?, 1
+Point out the laptop, 1
+Point out the book, 1
+Point out the cup, 1
+Point out the mobile phone, 1
+Point out the pen, 1
+Point out the bottle, 1
+Point out the hand, 1
+Point out the chair, 1
+Point out the mouse, 1
+Point out the monitor, 1
+Point out the keyboard, 1
+Detect laptop, 1
+Detect book, 1
+Detect cup, 1
+Detect mobile phone, 1
+Detect pen, 1
+Detect bottle, 1
+Detect hand, 1
+Detect chair, 1
+Detect mouse, 1
+Detect monitor, 1
+Detect keyboard, 1
+Spot the laptop, 1
+Spot the book, 1
+Spot the cup, 1
+Spot the mobile phone, 1
+Spot the pen, 1
+Spot the bottle, 1
+Spot the hand, 1
+Spot the chair, 1
+Spot the mouse, 1
+Spot the monitor, 1
+Spot the keyboard, 1
+Highlight the laptop, 1
+Highlight the book, 1
+Highlight the cup, 1
+Highlight the mobile phone, 1
+Highlight the pen, 1
+Highlight the bottle, 1
+Highlight the hand, 1
+Highlight the chair, 1
+Highlight the mouse, 1
+Highlight the monitor, 1
+Highlight the keyboard, 1
+Color the laptop, 1
+Color the book, 1
+Color the cup, 1
+Color the mobile phone, 1
+Color the pen, 1
+Color the bottle, 1
+Color the hand, 1
+Color the chair, 1
+Color the mouse, 1
+Color the monitor, 1
+Color the keyboard, 1
+Show me where the laptop is, 1
+Show me where the book is, 1
+Show me where the cup is, 1
+Show me where the mobile phone is, 1
+Show me where the pen is, 1
+Show me where the bottle is, 1
+Show me where the hand is, 1
+Show me where the chair is, 1
+Show me where the mouse is, 1
+Show me where the monitor is, 1
+Show me where the keyboard is, 1
+Show me where the laptop are, 1
+Show me where the book are, 1
+Show me where the cup are, 1
+Show me where the mobile phone are, 1
+Show me where the pen are, 1
+Show me where the bottle are, 1
+Show me where the hand are, 1
+Show me where the chair are, 1
+Show me where the mouse are, 1
+Show me where the monitor are, 1
+Show me where the keyboard are, 1
+Detect the laptop, 1
+Detect the book, 1
+Detect the cup, 1
+Detect the mobile phone, 1
+Detect the pen, 1
+Detect the bottle, 1
+Detect the hand, 1
+Detect the chair, 1
+Detect the mouse, 1
+Detect the monitor, 1
+Detect the keyboard, 1
+Search for the laptop, 1
+Search for the book, 1
+Search for the cup, 1
+Search for the mobile phone, 1
+Search for the pen, 1
+Search for the bottle, 1
+Search for the hand, 1
+Search for the chair, 1
+Search for the mouse, 1
+Search for the monitor, 1
+Search for the keyboard, 1
+Find where the laptop is, 1
+Find where the book is, 1
+Find where the cup is, 1
+Find where the mobile phone is, 1
+Find where the pen is, 1
+Find where the bottle is, 1
+Find where the hand is, 1
+Find where the chair is, 1
+Find where the mouse is, 1
+Find where the monitor is, 1
+Find where the keyboard is, 1
+Find where the laptop are, 1
+Find where the book are, 1
+Find where the cup are, 1
+Find where the mobile phone are, 1
+Find where the pen are, 1
+Find where the bottle are, 1
+Find where the hand are, 1
+Find where the chair are, 1
+Find where the mouse are, 1
+Find where the monitor are, 1
+Find where the keyboard are, 1
+Discover the laptop, 1
+Discover the book, 1
+Discover the cup, 1
+Discover the mobile phone, 1
+Discover the pen, 1
+Discover the bottle, 1
+Discover the hand, 1
+Discover the chair, 1
+Discover the mouse, 1
+Discover the monitor, 1
+Discover the keyboard, 1
+Track the laptop, 1
+Track the book, 1
+Track the cup, 1
+Track the mobile phone, 1
+Track the pen, 1
+Track the bottle, 1
+Track the hand, 1
+Track the chair, 1
+Track the mouse, 1
+Track the monitor, 1
+Track the keyboard, 1
+Point me the laptop, 1
+Point me the book, 1
+Point me the cup, 1
+Point me the mobile phone, 1
+Point me the pen, 1
+Point me the bottle, 1
+Point me the hand, 1
+Point me the chair, 1
+Point me the mouse, 1
+Point me the monitor, 1
+Point me the keyboard, 1
+Where did I put my laptop, 1
+Where did I put my book, 1
+Where did I put my cup, 1
+Where did I put my mobile phone, 1
+Where did I put my pen, 1
+Where did I put my bottle, 1
+Where did I put my hand, 1
+Where did I put my chair, 1
+Where did I put my mouse, 1
+Where did I put my monitor, 1
+Where did I put my keyboard, 1
+Where did I keep my laptop, 1
+Where did I keep my book, 1
+Where did I keep my cup, 1
+Where did I keep my mobile phone, 1
+Where did I keep my pen, 1
+Where did I keep my bottle, 1
+Where did I keep my hand, 1
+Where did I keep my chair, 1
+Where did I keep my mouse, 1
+Where did I keep my monitor, 1
+Where did I keep my keyboard, 1
+I need to find my laptop, 1
+I need to find my book, 1
+I need to find my cup, 1
+I need to find my mobile phone, 1
+I need to find my pen, 1
+I need to find my bottle, 1
+I need to find my hand, 1
+I need to find my chair, 1
+I need to find my mouse, 1
+I need to find my monitor, 1
+I need to find my keyboard, 1
+Can you help find my laptop, 1
+Can you help find my book, 1
+Can you help find my cup, 1
+Can you help find my mobile phone, 1
+Can you help find my pen, 1
+Can you help find my bottle, 1
+Can you help find my hand, 1
+Can you help find my chair, 1
+Can you help find my mouse, 1
+Can you help find my monitor, 1
+Can you help find my keyboard, 1
+Help me find my laptop, 1
+Help me find my book, 1
+Help me find my cup, 1
+Help me find my mobile phone, 1
+Help me find my pen, 1
+Help me find my bottle, 1
+Help me find my hand, 1
+Help me find my chair, 1
+Help me find my mouse, 1
+Help me find my monitor, 1
+Help me find my keyboard, 1
+Is there a laptop here, 1
+Is there a book here, 1
+Is there a cup here, 1
+Is there a mobile phone here, 1
+Is there a pen here, 1
+Is there a bottle here, 1
+Is there a hand here, 1
+Is there a chair here, 1
+Is there a mouse here, 1
+Is there a monitor here, 1
+Is there a keyboard here, 1
+I can’t find my laptop, 1
+I can’t find my book, 1
+I can’t find my cup, 1
+I can’t find my mobile phone, 1
+I can’t find my pen, 1
+I can’t find my bottle, 1
+I can’t find my hand, 1
+I can’t find my chair, 1
+I can’t find my mouse, 1
+I can’t find my monitor, 1
+I can’t find my keyboard, 1
+Give me information about the laptop, 2
+Give me information about the book, 2
+Give me information about the cup, 2
+Give me information about the mobile phone, 2
+Give me information about the pen, 2
+Give me information about the bottle, 2
+Give me information about the hand, 2
+Give me information about the chair, 2
+Give me information about the mouse, 2
+Give me information about the monitor, 2
+Give me information about the keyboard, 2
+Show me the properties of laptop, 2
+Show me the properties of book, 2
+Show me the properties of cup, 2
+Show me the properties of mobile phone, 2
+Show me the properties of pen, 2
+Show me the properties of bottle, 2
+Show me the properties of hand, 2
+Show me the properties of chair, 2
+Show me the properties of mouse, 2
+Show me the properties of monitor, 2
+Show me the properties of keyboard, 2
+Describe laptop, 2
+Describe book, 2
+Describe cup, 2
+Describe mobile phone, 2
+Describe pen, 2
+Describe bottle, 2
+Describe hand, 2
+Describe chair, 2
+Describe mouse, 2
+Describe monitor, 2
+Describe keyboard, 2
+Give me the details about laptop, 2
+Give me the details about book, 2
+Give me the details about cup, 2
+Give me the details about mobile phone, 2
+Give me the details about pen, 2
+Give me the details about bottle, 2
+Give me the details about hand, 2
+Give me the details about chair, 2
+Give me the details about mouse, 2
+Give me the details about monitor, 2
+Give me the details about keyboard, 2
+Make me aware of laptop, 2
+Make me aware of book, 2
+Make me aware of cup, 2
+Make me aware of mobile phone, 2
+Make me aware of pen, 2
+Make me aware of bottle, 2
+Make me aware of hand, 2
+Make me aware of chair, 2
+Make me aware of mouse, 2
+Make me aware of monitor, 2
+Make me aware of keyboard, 2
+Show properties of this laptop, 2
+Show properties of this book, 2
+Show properties of this cup, 2
+Show properties of this mobile phone, 2
+Show properties of this pen, 2
+Show properties of this bottle, 2
+Show properties of this hand, 2
+Show properties of this chair, 2
+Show properties of this mouse, 2
+Show properties of this monitor, 2
+Show properties of this keyboard, 2
+What are the features of the laptop, 2
+What are the features of the book, 2
+What are the features of the cup, 2
+What are the features of the mobile phone, 2
+What are the features of the pen, 2
+What are the features of the bottle, 2
+What are the features of the hand, 2
+What are the features of the chair, 2
+What are the features of the mouse, 2
+What are the features of the monitor, 2
+What are the features of the keyboard, 2
+What are the properties of the laptop, 2
+What are the properties of the book, 2
+What are the properties of the cup, 2
+What are the properties of the mobile phone, 2
+What are the properties of the pen, 2
+What are the properties of the bottle, 2
+What are the properties of the hand, 2
+What are the properties of the chair, 2
+What are the properties of the mouse, 2
+What are the properties of the monitor, 2
+What are the properties of the keyboard, 2
+Give a detailed description of laptop, 2
+Give a detailed description of book, 2
+Give a detailed description of cup, 2
+Give a detailed description of mobile phone, 2
+Give a detailed description of pen, 2
+Give a detailed description of bottle, 2
+Give a detailed description of hand, 2
+Give a detailed description of chair, 2
+Give a detailed description of mouse, 2
+Give a detailed description of monitor, 2
+Give a detailed description of keyboard, 2
+Give an account of this laptop, 2
+Give an account of this book, 2
+Give an account of this cup, 2
+Give an account of this mobile phone, 2
+Give an account of this pen, 2
+Give an account of this bottle, 2
+Give an account of this hand, 2
+Give an account of this chair, 2
+Give an account of this mouse, 2
+Give an account of this monitor, 2
+Give an account of this keyboard, 2
+Explain the features of this laptop, 2
+Explain the features of this book, 2
+Explain the features of this cup, 2
+Explain the features of this mobile phone, 2
+Explain the features of this pen, 2
+Explain the features of this bottle, 2
+Explain the features of this hand, 2
+Explain the features of this chair, 2
+Explain the features of this mouse, 2
+Explain the features of this monitor, 2
+Explain the features of this keyboard, 2
+Explain the properties of this laptop, 2
+Explain the properties of this book, 2
+Explain the properties of this cup, 2
+Explain the properties of this mobile phone, 2
+Explain the properties of this pen, 2
+Explain the properties of this bottle, 2
+Explain the properties of this hand, 2
+Explain the properties of this chair, 2
+Explain the properties of this mouse, 2
+Explain the properties of this monitor, 2
+Explain the properties of this keyboard, 2
+What is the brand of the laptop, 2
+What is the brand of the book, 2
+What is the brand of the cup, 2
+What is the brand of the mobile phone, 2
+What is the brand of the pen, 2
+What is the brand of the bottle, 2
+What is the brand of the hand, 2
+What is the brand of the chair, 2
+What is the brand of the mouse, 2
+What is the brand of the monitor, 2
+What is the brand of the keyboard, 2
+Who is the manufacturer of laptop, 2
+Who is the manufacturer of book, 2
+Who is the manufacturer of cup, 2
+Who is the manufacturer of mobile phone, 2
+Who is the manufacturer of pen, 2
+Who is the manufacturer of bottle, 2
+Who is the manufacturer of hand, 2
+Who is the manufacturer of chair, 2
+Who is the manufacturer of mouse, 2
+Who is the manufacturer of monitor, 2
+Who is the manufacturer of keyboard, 2
+What kind of laptop is this?, 2
+What kind of book is this?, 2
+What kind of cup is this?, 2
+What kind of mobile phone is this?, 2
+What kind of pen is this?, 2
+What kind of bottle is this?, 2
+What kind of hand is this?, 2
+What kind of chair is this?, 2
+What kind of mouse is this?, 2
+What kind of monitor is this?, 2
+What kind of keyboard is this?, 2
+I want the details of this laptop, 2
+I want the details of this book, 2
+I want the details of this cup, 2
+I want the details of this mobile phone, 2
+I want the details of this pen, 2
+I want the details of this bottle, 2
+I want the details of this hand, 2
+I want the details of this chair, 2
+I want the details of this mouse, 2
+I want the details of this monitor, 2
+I want the details of this keyboard, 2
+Search the details of this laptop, 2
+Search the details of this book, 2
+Search the details of this cup, 2
+Search the details of this mobile phone, 2
+Search the details of this pen, 2
+Search the details of this bottle, 2
+Search the details of this hand, 2
+Search the details of this chair, 2
+Search the details of this mouse, 2
+Search the details of this monitor, 2
+Search the details of this keyboard, 2
+Provide the details of this laptop, 2
+Provide the details of this book, 2
+Provide the details of this cup, 2
+Provide the details of this mobile phone, 2
+Provide the details of this pen, 2
+Provide the details of this bottle, 2
+Provide the details of this hand, 2
+Provide the details of this chair, 2
+Provide the details of this mouse, 2
+Provide the details of this monitor, 2
+Provide the details of this keyboard, 2
+Can I know more about the  laptop, 2
+Can I know more about the  book, 2
+Can I know more about the  cup, 2
+Can I know more about the  mobile phone, 2
+Can I know more about the  pen, 2
+Can I know more about the  bottle, 2
+Can I know more about the  hand, 2
+Can I know more about the  chair, 2
+Can I know more about the  mouse, 2
+Can I know more about the  monitor, 2
+Can I know more about the  keyboard, 2
+Can I get information about the laptop, 2
+Can I get information about the book, 2
+Can I get information about the cup, 2
+Can I get information about the mobile phone, 2
+Can I get information about the pen, 2
+Can I get information about the bottle, 2
+Can I get information about the hand, 2
+Can I get information about the chair, 2
+Can I get information about the mouse, 2
+Can I get information about the monitor, 2
+Can I get information about the keyboard, 2
+What can you say about this laptop, 2
+What can you say about this book, 2
+What can you say about this cup, 2
+What can you say about this mobile phone, 2
+What can you say about this pen, 2
+What can you say about this bottle, 2
+What can you say about this hand, 2
+What can you say about this chair, 2
+What can you say about this mouse, 2
+What can you say about this monitor, 2
+What can you say about this keyboard, 2
+What do you know about the laptop, 2
+What do you know about the book, 2
+What do you know about the cup, 2
+What do you know about the mobile phone, 2
+What do you know about the pen, 2
+What do you know about the bottle, 2
+What do you know about the hand, 2
+What do you know about the chair, 2
+What do you know about the mouse, 2
+What do you know about the monitor, 2
+What do you know about the keyboard, 2
+What is this laptop, 2
+What is this book, 2
+What is this cup, 2
+What is this mobile phone, 2
+What is this pen, 2
+What is this bottle, 2
+What is this hand, 2
+What is this chair, 2
+What is this mouse, 2
+What is this monitor, 2
+What is this keyboard, 2
+Give me the specification of the laptop, 2
+Give me the specification of the book, 2
+Give me the specification of the cup, 2
+Give me the specification of the mobile phone, 2
+Give me the specification of the pen, 2
+Give me the specification of the bottle, 2
+Give me the specification of the hand, 2
+Give me the specification of the chair, 2
+Give me the specification of the mouse, 2
+Give me the specification of the monitor, 2
+Give me the specification of the keyboard, 2
+Can you describe this laptop, 2
+Can you describe this book, 2
+Can you describe this cup, 2
+Can you describe this mobile phone, 2
+Can you describe this pen, 2
+Can you describe this bottle, 2
+Can you describe this hand, 2
+Can you describe this chair, 2
+Can you describe this mouse, 2
+Can you describe this monitor, 2
+Can you describe this keyboard, 2
+destiny, 3
+again, 3
+find the pin, 3
+find the hen, 3
+the hand, 3
+find the hand, 3
+find a job, 3
+find the jail, 3
+find, 3
+fine but yeah, 3
+the locked up, 3
+find the bob behind, 3
+find the hand, 3
+show me the location of the body, 3
+show me the location of the hand, 3
+look at the laptop, 3
+look at the book, 3
+locate the pin, 3
+locate the body, 3
+look at the hand, 3
+locate the hen, 3
+look at the hand, 3
+locate the hand, 3
+look at the monitor, 3
+look at the monitor, 3
+please look at the laptop, 3
+please look at the book, 3
+please look at the cop, 3
+please look at the mobile phone, 3
+please look at the pin, 3
+please locate the pin, 3
+please locate the bottle, 3
+please locate the hand, 3
+please look at the chair, 3
+please locate the chair, 3
+please look at the mouse, 3
+please locate the mouse, 3
+look at the keyboard, 3
+please look at the keyboard, 3
+hello, 3
+that is the laptop, 3
+there is the laptop, 3
+that other laptops, 3
+dude, 3
+hello, 3
+oh yeah, 3
+yes, 3
+why then can soon, 3
+why didn't guns, 3
+understanding early to , 3
+development has been a , 3
+subject of increasing interest, 3
+ over the past several decades, 3
+dilute deadly, 3
+locate dubbed it, 3
+locate the indians, 3
+this rule, 3
+maybe, 3
+men, 3
+bigger than thirty, 3
+look at the objects, 3
+look at the bank, 3
+look, 3
+locate the bin, 3
+lindsey, 3
+stick, 3
+hello back, 3
+a further eighty, 3
+it is back maybe governments are going to grant it, 3
+these islands are running denton, 3
+bit, 3
+look, 3
+anyway don't go deployment run configuration, 3
+ for fifteen violence, 3
+it will be, 3
+what, 3
+hello hello, 3
+a million, 3
+please i led the pin, 3
+please highlight the pin, 3
+money, 3
+never, 3
+now today, 3
+can you find me the pain, 3
+can we hide me the pain then finally, 3
+can we hide, 3
+gimme, 3
+you got it i d been been giving you, 3
+the blatant needs help i need to highlight the bin, 3
+the blade needs help i need i write this in it, 3
+even though i know you, 3
+i see, 3
+i do i await us in view of the railroad men, 3
+how many money does idea, 3
+how many monitors idea, 3
+tell me a story, 3
+how many laptops idea, 3
+what is the kind of leapt, 3
+what do you do, 3
+i out, 3
+i need the count of books, 3
+sport the book, 3
+spot the book, 3
+turn around, 3
