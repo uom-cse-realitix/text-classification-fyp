@@ -1,21 +1,11 @@
 import pandas as pd
-import numpy as np
 from keras.preprocessing.text import Tokenizer
 from sklearn.model_selection import train_test_split
 from nltk.tokenize import word_tokenize
-from sklearn.utils import shuffle
-from nltk.tokenize.treebank import TreebankWordDetokenizer as Detok
 from nltk.tokenize.treebank import TreebankWordDetokenizer
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import classification_report
-from sklearn.linear_model import SGDClassifier
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
-from keras.callbacks import ModelCheckpoint, EarlyStopping
+from keras.callbacks import EarlyStopping
 from keras.layers import *
 import matplotlib.pyplot as plt
 from keras.regularizers import l2
@@ -75,6 +65,10 @@ def plot_history(history):
     plt.plot(history.history['val_loss'], label='test')
     plt.legend()
     plt.show()
+
+
+def plot_label_distribution(dataframe):
+    dataframe['operation'].value_counts().plot(kind="bar")
 
 
 def init_tokenizer(MAX_NB_WORDS, dataframe):
@@ -137,14 +131,13 @@ def infer(sentence, tokenizer, model):
 
 
 if __name__ == '__main__':
-        # df, sentences, y = import_and_prepare('data/fyp_dataset.txt')
-        df, sentences, y = import_and_prepare('data/dataset_new.txt')
-        filtered_sentences = filter_stopwords(sentences, stopwords_list)
-        detokenized_sentences = detokenize(filtered_sentences)
-        df['filtered_sentence'] = detokenized_sentences
-        tokenizer = init_tokenizer(MAX_NB_WORDS, df)
-        model, history = lstm_train(df, tokenizer, MAX_NB_WORDS, MAX_SEQUENCE_LENGTH)
-        model.save('lstm.h5')
-        plot_history(history)
-
-
+    # df, sentences, y = import_and_prepare('data/fyp_dataset.txt')
+    df, sentences, y = import_and_prepare('data/dataset_new.txt')
+    plot_label_distribution(df)
+    filtered_sentences = filter_stopwords(sentences, stopwords_list)
+    detokenized_sentences = detokenize(filtered_sentences)
+    df['filtered_sentence'] = detokenized_sentences
+    tokenizer = init_tokenizer(MAX_NB_WORDS, df)
+    model, history = lstm_train(df, tokenizer, MAX_NB_WORDS, MAX_SEQUENCE_LENGTH)
+    model.save('lstm.h5')
+    plot_history(history)
