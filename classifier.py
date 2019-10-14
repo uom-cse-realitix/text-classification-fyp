@@ -42,8 +42,8 @@ stopwords_list = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "
 
 
 def import_and_prepare(filepath):
-    df = pd.read_csv(filepath, names=['sentence', 'operation'], sep=', ', engine='python')
-    df = shuffle(df)
+    df = pd.read_csv(filepath, names=['sentence', 'operation'], sep=',', engine='python')
+    # df = shuffle(df)
     sentences = df['sentence'].values
     y = df['operation'].values
     return df, sentences, y
@@ -137,7 +137,8 @@ def infer(sentence, tokenizer, model):
 
 
 if __name__ == '__main__':
-        df, sentences, y = import_and_prepare('data/fyp_dataset.txt')
+        # df, sentences, y = import_and_prepare('data/fyp_dataset.txt')
+        df, sentences, y = import_and_prepare('data/dataset_new.txt')
         filtered_sentences = filter_stopwords(sentences, stopwords_list)
         detokenized_sentences = detokenize(filtered_sentences)
         df['filtered_sentence'] = detokenized_sentences
