@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="556fb899-d334-4c90-b809-64482f4bf166" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +76,19 @@
       <workItem from="1569978495053" duration="4665000" />
       <workItem from="1570029535552" duration="7000" />
       <workItem from="1570424063516" duration="206000" />
-      <workItem from="1571029514973" duration="7788000" />
+      <workItem from="1571029514973" duration="10483000" />
+      <workItem from="1571209558847" duration="1595000" />
+      <workItem from="1571731540200" duration="1329000" />
+      <workItem from="1571749723558" duration="2968000" />
     </task>
+    <task id="LOCAL-00001" summary="chart added">
+      <created>1571038419692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571038419692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,13 +99,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chart added" />
+    <option name="LAST_COMMIT_MESSAGE" value="chart added" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sentiment_analysis$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1571038244789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sentiment_analysis$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1571752847261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

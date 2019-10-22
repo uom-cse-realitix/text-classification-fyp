@@ -11,6 +11,8 @@ import matplotlib.pyplot as plt
 from keras.regularizers import l2
 from keras.utils.vis_utils import plot_model
 from imblearn.over_sampling import SMOTE
+import nltk
+import numpy as np
 
 # The maximum number of words to be used. (most frequent)
 MAX_NB_WORDS = 50000
@@ -129,15 +131,33 @@ def infer(sentence, tokenizer, model):
     pred = model.predict(padded)
     return pred
 
-
-if __name__ == '__main__':
-    # df, sentences, y = import_and_prepare('data/fyp_dataset.txt')
+def pre_initialize():
     df, sentences, y = import_and_prepare('data/dataset_new.txt')
+    # df_temp, sentences_temp, y_temp = import_and_prepare('data/dataset_new.txt')
     plot_label_distribution(df)
     filtered_sentences = filter_stopwords(sentences, stopwords_list)
     detokenized_sentences = detokenize(filtered_sentences)
     df['filtered_sentence'] = detokenized_sentences
     tokenizer = init_tokenizer(MAX_NB_WORDS, df)
+    return df, tokenizer
+
+
+if __name__ == '__main__':
+    # df, sentences, y = import_and_prepare('data/dataset.txt')
+    # nltk.download()
+
+    df, tokenizer = pre_initialize()
     model, history = lstm_train(df, tokenizer, MAX_NB_WORDS, MAX_SEQUENCE_LENGTH)
-    model.save('lstm.h5')
-    plot_history(history)
+    model.save('lstm_modified_2.h5')
+    # plot_history(history)
+
+    # ====== Test ========
+    # model = load_model('./lstm_modified_2.h5')
+    # new_command = ['Track the pencil']
+    # filtered_commands = filter_stopwords(new_command, stopwords_list)
+    # seq = tokenizer.texts_to_sequences(filtered_commands)
+    # padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
+    # pred = model.predict(padded)
+    #
+    # labels = ['Locate', 'Describe', 'No_Op']
+    # print("Predicted vector: ", pred, " Predicted Class: ", labels[np.argmax(pred)])
