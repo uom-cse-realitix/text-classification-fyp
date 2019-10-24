@@ -11,10 +11,13 @@ import matplotlib.pyplot as plt
 from keras.regularizers import l2
 from keras.utils.vis_utils import plot_model
 from imblearn.over_sampling import SMOTE
+
 import nltk
 import numpy as np
 
 # The maximum number of words to be used. (most frequent)
+from tensorflow_core.python.keras.models import load_model
+
 MAX_NB_WORDS = 50000
 # Max number of words in each complaint.
 MAX_SEQUENCE_LENGTH = 250
@@ -117,12 +120,6 @@ def lstm_train(df, tokenizer, max_sequence_length, embedding_dimensions):
     plot_model(model, to_file='model.png')
     return model, history
 
-
-def load_model(model_path):
-    model = load_model(model_path)
-    return model
-
-
 def infer(sentence, tokenizer, model):
     sentence_as_array = [sentence]
     filtered_commands = filter_stopwords(sentence_as_array, stopwords_list)
@@ -148,16 +145,16 @@ if __name__ == '__main__':
 
     df, tokenizer = pre_initialize()
     model, history = lstm_train(df, tokenizer, MAX_NB_WORDS, MAX_SEQUENCE_LENGTH)
-    model.save('lstm_modified_2.h5')
+    model.save('lstm.h5')
     # plot_history(history)
 
     # ====== Test ========
-    # model = load_model('./lstm_modified_2.h5')
-    # new_command = ['Track the pencil']
-    # filtered_commands = filter_stopwords(new_command, stopwords_list)
-    # seq = tokenizer.texts_to_sequences(filtered_commands)
-    # padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
-    # pred = model.predict(padded)
-    #
-    # labels = ['Locate', 'Describe', 'No_Op']
-    # print("Predicted vector: ", pred, " Predicted Class: ", labels[np.argmax(pred)])
+    model = load_model('./lstm.h5')
+    new_command = ['Track the pen']
+    filtered_commands = filter_stopwords(new_command, stopwords_list)
+    seq = tokenizer.texts_to_sequences(filtered_commands)
+    padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
+    pred = model.predict(padded)
+
+    labels = ['Locate', 'Describe', 'No_Op']
+    print("Predicted vector: ", pred, " Predicted Class: ", labels[np.argmax(pred)])
