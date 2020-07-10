@@ -165,15 +165,20 @@ if __name__ == '__main__':
 
     labels = ['Locate', 'Describe', 'No_Op']
 
+    trials = 10
+
     for command in commands:
-        print("Command " + command)
-        filtered_commands = filter_stopwords([command], stopwords_list)
-        seq = tokenizer.texts_to_sequences(filtered_commands)
-        padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
-        start = time.time()
-        pred = model.predict(padded)
-        delta = time.time() - start
-        dataframe = dataframe.append({'command': command, 'time': delta, 'class': labels[np.argmax(pred)]}
+        _time = 0.0
+        for i in range(trials):
+            print("Command " + command)
+            filtered_commands = filter_stopwords([command], stopwords_list)
+            seq = tokenizer.texts_to_sequences(filtered_commands)
+            padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
+            start = time.time()
+            pred = model.predict(padded)
+            delta = time.time() - start
+            _time = _time + delta
+        dataframe = dataframe.append({'command': command, 'time': _time / trials, 'class': labels[np.argmax(pred)]}
                                      , ignore_index=True)
 
     dataframe.to_csv('predictions.csv', index=False)
