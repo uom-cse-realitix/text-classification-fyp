@@ -1,3 +1,4 @@
+import sys
 import time
 
 import pandas as pd
@@ -157,6 +158,8 @@ if __name__ == '__main__':
 
     # ====== Test ========
     model = load_model('./lstm.h5')
+
+    print('Size of model: ' + str(sys.getsizeof(model)) + ' bytes')
 
     dataframe = pd.DataFrame({'command': [], 'time': [], 'class': []})
 
