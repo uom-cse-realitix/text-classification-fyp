@@ -1,3 +1,5 @@
+import time
+
 import pandas as pd
 from keras.preprocessing.text import Tokenizer
 from sklearn.model_selection import train_test_split
@@ -11,12 +13,13 @@ import matplotlib.pyplot as plt
 from keras.regularizers import l2
 from keras.utils.vis_utils import plot_model
 from imblearn.over_sampling import SMOTE
+from time_logger import TimeLogger
 
 import nltk
 import numpy as np
 
 # The maximum number of words to be used. (most frequent)
-from tensorflow_core.python.keras.models import load_model
+from keras.models import load_model
 
 MAX_NB_WORDS = 50000
 # Max number of words in each complaint.
@@ -117,8 +120,9 @@ def lstm_train(df, tokenizer, max_sequence_length, embedding_dimensions):
     accr = model.evaluate(X_test, Y_test)
     print(model.summary())
     print('Test set\n  Loss: {:0.3f}\n  Accuracy: {:0.3f}'.format(accr[0], accr[1]))
-    plot_model(model, to_file='model.png')
+    # plot_model(model, to_file='model.png')
     return model, history
+
 
 def infer(sentence, tokenizer, model):
     sentence_as_array = [sentence]
@@ -127,6 +131,7 @@ def infer(sentence, tokenizer, model):
     padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
     pred = model.predict(padded)
     return pred
+
 
 def pre_initialize():
     df, sentences, y = import_and_prepare('data/dataset_new.txt')
@@ -144,17 +149,40 @@ if __name__ == '__main__':
     # nltk.download()
 
     df, tokenizer = pre_initialize()
-    model, history = lstm_train(df, tokenizer, MAX_NB_WORDS, MAX_SEQUENCE_LENGTH)
-    model.save('lstm.h5')
+    # model, history = lstm_train(df, tokenizer, MAX_NB_WORDS, MAX_SEQUENCE_LENGTH)
+    # model.save('lstm.h5')
     # plot_history(history)
+
+    commands = pd.read_csv('data/commands.csv', encoding="utf-8")['commands']
 
     # ====== Test ========
     model = load_model('./lstm.h5')
-    new_command = ['Track the pen']
-    filtered_commands = filter_stopwords(new_command, stopwords_list)
-    seq = tokenizer.texts_to_sequences(filtered_commands)
-    padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
-    pred = model.predict(padded)
+
+    dataframe = pd.DataFrame({'command': [], 'time': [], 'class': []})
 
     labels = ['Locate', 'Describe', 'No_Op']
-    print("Predicted vector: ", pred, " Predicted Class: ", labels[np.argmax(pred)])
+
+    for command in commands:
+        print("Command " + command)
+        filtered_commands = filter_stopwords([command], stopwords_list)
+        seq = tokenizer.texts_to_sequences(filtered_commands)
+        padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
+        start = time.time()
+        pred = model.predict(padded)
+        delta = time.time() - start
+        dataframe = dataframe.append({'command': command, 'time': delta, 'class': labels[np.argmax(pred)]}
+                                     , ignore_index=True)
+
+    dataframe.to_csv('predictions.csv', index=False)
+    #
+    # new_command = ['Can you describe this book']
+    # filtered_commands = filter_stopwords(new_command, stopwords_list)
+    # seq = tokenizer.texts_to_sequences(filtered_commands)
+    # padded = pad_sequences(seq, maxlen=MAX_SEQUENCE_LENGTH)
+    # time_logger = TimeLogger('')
+    # time_logger.start()
+    # pred = model.predict(padded)
+    # time_logger.end()
+    #
+    # labels = ['Locate', 'Describe', 'No_Op']
+    # print("Predicted vector: ", pred, " Predicted Class: ", labels[np.argmax(pred)])
